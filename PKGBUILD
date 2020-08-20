@@ -1,16 +1,13 @@
 # Maintainer: Ford Smith <lonelyrustacean@gmail.com>
-# Contributo: Felix Yan <felixonmars@archlinux.org>
-# Contributor: Josip Ponjavic <josipponjavic at gmail dot com>
-# Contributor: Xu Fasheng <fasheng.xu[AT]gmail.com>
 
-pkgname=deepin-screenshot-copy-patch
+pkgname=deepin-screen-recorder-copy-patch
 pkgver=5.8.0.11
 pkgrel=3
-pkgdesc="Easy-to-use screenshot tool for linuxdeepin desktop environment with xclip copy patch"
+pkgdesc="Easy-to-use screen recording tool for linuxdeepin desktop environment with xclip copy patch"
 arch=('x86_64')
 url="https://github.com/linuxdeepin/deepin-screen-recorder"
 provides=('deepin-screen-recorder')
-conflicts=('deepin-screen-recorder')
+conflicts=('deepin-screen-recorder' 'deepin-screenshot-copy-patch')
 license=('GPL3')
 depends=('deepin-qt5integration' 'dtkwm' 'deepin-turbo')
 makedepends=('cmake' 'qt5-tools')
